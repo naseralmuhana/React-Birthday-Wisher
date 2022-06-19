@@ -115,7 +115,10 @@ const Birthday = ({ name, day, month }) => {
           Birth-Date: {day} {monthBirthday} {currentYear}
         </div>
         <div className="credits">
-          <a href="https://github.com/naseralmuhana">
+          <a
+            href="https://github.com/naseralmuhana/React-Birthday-Wisher"
+            title="Source"
+          >
             <img src={GithubLogo} alt="Github-Logo" className="github-logo" />
           </a>
         </div>
